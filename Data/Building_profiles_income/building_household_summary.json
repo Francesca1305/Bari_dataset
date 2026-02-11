@@ -1,0 +1,2945 @@
+{
+  "116": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 8,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 11,
+      "Saver": 0
+    }
+  },
+  "138": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 10,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 15,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 28,
+      "Saver": 0
+    }
+  },
+  "50": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    }
+  },
+  "3": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    }
+  },
+  "35": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 6,
+      "Saver": 0
+    }
+  },
+  "120": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 12,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 7,
+      "Saver": 0
+    }
+  },
+  "132": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 13,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 17,
+      "Saver": 0
+    }
+  },
+  "98": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 7,
+      "Saver": 0
+    }
+  },
+  "85": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 6,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 20,
+      "Saver": 0
+    }
+  },
+  "86": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 6,
+      "Saver": 0
+    }
+  },
+  "87": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    }
+  },
+  "88": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 7,
+      "Saver": 0
+    }
+  },
+  "89": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 9,
+      "Saver": 0
+    }
+  },
+  "21": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    }
+  },
+  "22": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 6,
+      "Saver": 0
+    }
+  },
+  "23": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    }
+  },
+  "24": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 6,
+      "Saver": 0
+    }
+  },
+  "25": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 6,
+      "Saver": 0
+    }
+  },
+  "26": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    }
+  },
+  "100": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 7,
+      "Saver": 0
+    }
+  },
+  "101": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 7,
+      "Saver": 0
+    }
+  },
+  "102": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 6,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    }
+  },
+  "103": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    }
+  },
+  "104": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 7,
+      "Saver": 0
+    }
+  },
+  "105": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    }
+  },
+  "108": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 8,
+      "Saver": 0
+    }
+  },
+  "12": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    }
+  },
+  "14": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 8,
+      "Saver": 0
+    }
+  },
+  "15": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    }
+  },
+  "16": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    }
+  },
+  "17": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    }
+  },
+  "52": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 6,
+      "Saver": 0
+    }
+  },
+  "53": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 7,
+      "Saver": 0
+    }
+  },
+  "54": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 7,
+      "Saver": 0
+    }
+  },
+  "55": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 8,
+      "Saver": 0
+    }
+  },
+  "56": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    }
+  },
+  "57": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    }
+  },
+  "58": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 8,
+      "Saver": 0
+    }
+  },
+  "59": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    }
+  },
+  "60": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    }
+  },
+  "124": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 7,
+      "Saver": 0
+    }
+  },
+  "61": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 6,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 9,
+      "Saver": 0
+    }
+  },
+  "126": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 6,
+      "Saver": 0
+    }
+  },
+  "62": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    }
+  },
+  "127": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 6,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 8,
+      "Saver": 0
+    }
+  },
+  "111": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    }
+  },
+  "128": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    }
+  },
+  "136": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 12,
+      "Saver": 0
+    }
+  },
+  "137": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 9,
+      "Saver": 0
+    }
+  },
+  "112": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 9,
+      "Saver": 0
+    }
+  },
+  "63": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    }
+  },
+  "113": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 8,
+      "Saver": 0
+    }
+  },
+  "114": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 11,
+      "Saver": 0
+    }
+  },
+  "66": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    }
+  },
+  "90": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    }
+  },
+  "91": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    }
+  },
+  "92": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    }
+  },
+  "99": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 10,
+      "Saver": 0
+    }
+  },
+  "133": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 10,
+      "Saver": 0
+    }
+  },
+  "134": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 11,
+      "Saver": 0
+    }
+  },
+  "10": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    }
+  },
+  "11": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    }
+  },
+  "109": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 6,
+      "Saver": 0
+    }
+  },
+  "110": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 6,
+      "Saver": 0
+    }
+  },
+  "69": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 9,
+      "Saver": 0
+    }
+  },
+  "78": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    }
+  },
+  "801": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    }
+  },
+  "80": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    }
+  },
+  "81": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    }
+  },
+  "82": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    }
+  },
+  "41": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    }
+  },
+  "42": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    }
+  },
+  "43": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    }
+  },
+  "44": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    }
+  },
+  "45": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    }
+  },
+  "46": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    }
+  },
+  "466": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    }
+  },
+  "93": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 9,
+      "Saver": 0
+    }
+  },
+  "94": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    }
+  },
+  "95": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 8,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    }
+  },
+  "96": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 6,
+      "Saver": 0
+    }
+  },
+  "97": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 8,
+      "Saver": 0
+    }
+  },
+  "117": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 6,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 8,
+      "Saver": 0
+    }
+  },
+  "121": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 6,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 11,
+      "Saver": 0
+    }
+  },
+  "122": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 7,
+      "Saver": 0
+    }
+  },
+  "123": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 6,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 8,
+      "Saver": 0
+    }
+  },
+  "83": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 6,
+      "Saver": 0
+    }
+  },
+  "70": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    }
+  },
+  "73": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    }
+  },
+  "74": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    }
+  },
+  "75": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 8,
+      "Saver": 0
+    }
+  },
+  "72": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    }
+  },
+  "76": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    }
+  },
+  "84": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    }
+  },
+  "129": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 12,
+      "Saver": 0
+    }
+  },
+  "130": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 6,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 13,
+      "Saver": 0
+    }
+  },
+  "47": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 8,
+      "Saver": 0
+    }
+  },
+  "48": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    }
+  },
+  "36": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 9,
+      "Saver": 0
+    }
+  },
+  "37": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    }
+  },
+  "38": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    }
+  },
+  "39": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 10,
+      "Saver": 0
+    }
+  },
+  "40": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 13,
+      "Saver": 0
+    }
+  },
+  "29": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 7,
+      "Saver": 0
+    }
+  },
+  "30": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 7,
+      "Saver": 0
+    }
+  },
+  "31": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 7,
+      "Saver": 0
+    }
+  },
+  "32": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    }
+  },
+  "33": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 6,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 6,
+      "Saver": 0
+    }
+  },
+  "34": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    }
+  }
+}

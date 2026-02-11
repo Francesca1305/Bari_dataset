@@ -39,7 +39,15 @@
         "P88":170,
         "P89":156,
         "P90":34,
-        "unknown_education": 22
+        "unknown_education": 22,
+        "below0_income_%": 0.01,
+        "10k_income_%": 0.27,
+        "10_15k_income_%": 0.114,
+        "%15_26k_income_%": 0.253,
+        "%_26_55k_income_%": 0.285,
+        "%_55_75k_income_%": 0.0327,
+        "%_75_120k_income_%": 0.0311,
+        "%_120k_income_%": 0.0143
       },
       "geometry": {
         "type": "Polygon",
@@ -136,7 +144,15 @@
         "P88":317,
         "P89":176,
         "P90":38,
-        "unknown_education": 49
+        "unknown_education": 49,
+        "below0_income_%": 0.01,
+        "10k_income_%": 0.27,
+        "10_15k_income_%": 0.114,
+        "%15_26k_income_%": 0.253,
+        "%_26_55k_income_%": 0.285,
+        "%_55_75k_income_%": 0.0327,
+        "%_75_120k_income_%": 0.0311,
+        "%_120k_income_%": 0.0143
       },
       "geometry": {
         "type": "Polygon",
@@ -237,7 +253,15 @@
         "P88":301,
         "P89":145,
         "P90":27,
-        "unknown_education": 52
+        "unknown_education": 52,
+        "below0_income_%": 0.01,
+        "10k_income_%": 0.27,
+        "10_15k_income_%": 0.114,
+        "%15_26k_income_%": 0.253,
+        "%_26_55k_income_%": 0.285,
+        "%_55_75k_income_%": 0.0327,
+        "%_75_120k_income_%": 0.0311,
+        "%_120k_income_%": 0.0143
       },
       "geometry": {
         "type": "Polygon",
@@ -366,7 +390,15 @@
         "P88":166,
         "P89":78,
         "P90":12,
-        "unknown_education": 27
+        "unknown_education": 27,
+        "below0_income_%": 0.01,
+        "10k_income_%": 0.27,
+        "10_15k_income_%": 0.114,
+        "%15_26k_income_%": 0.253,
+        "%_26_55k_income_%": 0.285,
+        "%_55_75k_income_%": 0.0327,
+        "%_75_120k_income_%": 0.0311,
+        "%_120k_income_%": 0.0143
       },
       "geometry": {
         "type": "Polygon",
@@ -447,7 +479,15 @@
         "P88":308,
         "P89":151,
         "P90":33,
-        "unknown_education": 37
+        "unknown_education": 37,
+        "below0_income_%": 0.01,
+        "10k_income_%": 0.27,
+        "10_15k_income_%": 0.114,
+        "%15_26k_income_%": 0.253,
+        "%_26_55k_income_%": 0.285,
+        "%_55_75k_income_%": 0.0327,
+        "%_75_120k_income_%": 0.0311,
+        "%_120k_income_%": 0.0143
       },
       "geometry": {
         "type": "Polygon",
@@ -552,7 +592,15 @@
         "P88":117,
         "P89":167,
         "P90":41,
-        "unknown_education": 19
+        "unknown_education": 19,
+        "below0_income_%": 0.01,
+        "10k_income_%": 0.27,
+        "10_15k_income_%": 0.114,
+        "%15_26k_income_%": 0.253,
+        "%_26_55k_income_%": 0.285,
+        "%_55_75k_income_%": 0.0327,
+        "%_75_120k_income_%": 0.0311,
+        "%_120k_income_%": 0.0143
       },
       "geometry": {
         "type": "Polygon",
@@ -657,7 +705,15 @@
         "P88":0,
         "P89":0,
         "P90":0,
-        "unknown_education": 0
+        "unknown_education": 0,
+        "below0_income_%": 0.01,
+        "10k_income_%": 0.27,
+        "10_15k_income_%": 0.114,
+        "%15_26k_income_%": 0.253,
+        "%_26_55k_income_%": 0.285,
+        "%_55_75k_income_%": 0.0327,
+        "%_75_120k_income_%": 0.0311,
+        "%_120k_income_%": 0.0143
       },
       "geometry": {
         "type": "Polygon",
@@ -742,7 +798,15 @@
         "P88":0,
         "P89":0,
         "P90":0,
-        "unknown_education": 0
+        "unknown_education": 0,
+        "below0_income_%": 0.01,
+        "10k_income_%": 0.27,
+        "10_15k_income_%": 0.114,
+        "%15_26k_income_%": 0.253,
+        "%_26_55k_income_%": 0.285,
+        "%_55_75k_income_%": 0.0327,
+        "%_75_120k_income_%": 0.0311,
+        "%_120k_income_%": 0.0143
       },
       "geometry": {
         "type": "Polygon",

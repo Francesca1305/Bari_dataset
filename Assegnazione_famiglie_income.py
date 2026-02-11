@@ -13,7 +13,7 @@ profile_files = {
     "lighting": "Data/Building_profiles_all/profiles_HH_ncomp_Lighting.xlsx",
     "DHW": "Data/Building_profiles_all/profiles_HH_ncomp_DHW.xlsx"
 }
-output_folder = "Data/Building_profiles_all_27.12"
+output_folder = "Data/Building_profiles_income"
 
 # Household types mapping (sheet names → simplified codes)
 ncomp_types = {
@@ -43,6 +43,9 @@ for category, file_path in profile_files.items():
     }
 
 building_household_summary = []
+all_households_detailed = []
+
+
 
 def assign_households_to_residential_buildings(census_sections, building_data):
     building_summary = {}
@@ -53,12 +56,24 @@ def assign_households_to_residential_buildings(census_sections, building_data):
         census_id = census["SEZ21"]
         census_population = census["total resident population"]
         total_census_households = census["total households"]
+
+        # education level
         no_study_titles = census["P86"]
         elementary_title = census["P87"]
         middle_school_title = census["P88"]
         secondary_school_title = census["P89"]
         university_title = census["P90"]
         unknown_title = census["unknown_education"]
+
+        # income classes distribution
+        below0_income = census["below0_income_%"]
+        I_range_income = census ["10k_income_%"]
+        II_range_income = census["10_15k_income_%"]
+        III_range_income = census["%15_26k_income_%"]
+        IV_range_income = census["%_26_55k_income_%"]
+        V_range_income = census["%_55_75k_income_%"]
+        VI_range_income = census["%_75_120k_income_%"]
+        VII_range_income = census["%_120k_income_%"]
 
 
         if census_population <= 0 or total_census_households <= 0:
@@ -172,6 +187,21 @@ def assign_households_to_residential_buildings(census_sections, building_data):
                 "university": university_title,
                 "unknown_edu": unknown_title
             }
+
+            # --- Income data for the census section ---
+            section_income = {
+                "below0_income": below0_income,
+                "10k_income": I_range_income,
+                "10_15k_income": II_range_income,
+                "15_26k_income": III_range_income,
+                "26_55k_income": IV_range_income,
+                "55_75k_income": V_range_income,
+                "75_120k_income": VI_range_income,
+                "120k_income": VII_range_income
+            }
+
+
+
             # --- RANDOM education allocation per building ---
 
             # Calcola le probabilità di ciascun livello di istruzione nella sezione
@@ -216,6 +246,51 @@ def assign_households_to_residential_buildings(census_sections, building_data):
                         rem_level = random.choice(candidates)
                         education_count[rem_level] -= 1
 
+
+
+            # --- RANDOM income allocation per building ---
+
+            income_levels = list(section_income.keys())
+            income_probs = list(section_income.values())
+
+            # Normalizzazione di sicurezza (nel caso non sommino esattamente a 1)
+            total_income_prob = sum(income_probs)
+            if total_income_prob == 0:
+                total_income_prob = 1
+
+            income_probs = [val / total_income_prob for val in income_probs]
+
+            # Estrai income per ogni residente stimato nell’edificio
+            random_income = random.choices(
+                population=income_levels,
+                weights=income_probs,
+                k=building["estimated_residents"]
+            )
+
+            income_count = dict(Counter(random_income))
+
+            # garantisci tutte le chiavi
+            for level in income_levels:
+                income_count.setdefault(level, 0)
+
+            # --- LOCAL REBALANCING income ---
+            sum_inc = sum(income_count.values())
+
+            if sum_inc < building["estimated_residents"]:
+                diff = building["estimated_residents"] - sum_inc
+                for _ in range(diff):
+                    add_level = random.choice(income_levels)
+                    income_count[add_level] += 1
+
+            elif sum_inc > building["estimated_residents"]:
+                diff = sum_inc - building["estimated_residents"]
+                for _ in range(diff):
+                    candidates = [lvl for lvl, val in income_count.items() if val > 0]
+                    if candidates:
+                        rem_level = random.choice(candidates)
+                        income_count[rem_level] -= 1
+
+
             # --- Estimate households and residents per type ---
             hh_types_residents = {
                 "single_worker": summary["single_worker"]["Average"] * 1,
@@ -227,6 +302,7 @@ def assign_households_to_residential_buildings(census_sections, building_data):
             total_building_residents = sum(hh_types_residents.values())
             if total_building_residents == 0:
                 total_building_residents = 1
+
 
             # --- Build a list of "virtual residents" for this building ---
             education_levels = []
@@ -240,17 +316,105 @@ def assign_households_to_residential_buildings(census_sections, building_data):
             # Shuffle for randomness
             random.shuffle(education_levels)
 
+            # --- Build income virtual residents list ---
+            income_levels_list = []
+            for level, count in income_count.items():
+                income_levels_list.extend([level] * count)
+
+            random.shuffle(income_levels_list)
+
+
             # --- Assign education levels to households randomly ---
             start_idx = 0
             household_education_detail = {}
+            household_income_detail = {}
+
+            start_idx = 0
+
             for hh_type, nres in hh_types_residents.items():
-                assigned = education_levels[start_idx:start_idx + nres] if nres > 0 else []
+                # Education
+                assigned_edu = education_levels[start_idx:start_idx + nres] if nres > 0 else []
+
+                # Income
+                assigned_inc = income_levels_list[start_idx:start_idx + nres] if nres > 0 else []
+
                 start_idx += nres
-                edu_counter = Counter(assigned)
+
+                edu_counter = Counter(assigned_edu)
+                inc_counter = Counter(assigned_inc)
+
                 household_education_detail[hh_type] = {
-                    "list": assigned,
+                    "list": assigned_edu,
                     "count": dict(edu_counter)
                 }
+
+                household_income_detail[hh_type] = {
+                    "list": assigned_inc,
+                    "count": dict(inc_counter)
+                }
+
+            # --- SAVE EACH HOUSEHOLD DISTINCTLY ---
+
+            for hh_type in household_education_detail.keys():
+
+                edu_list = household_education_detail[hh_type]["list"]
+                inc_list = household_income_detail[hh_type]["list"]
+
+                for i in range(len(edu_list)):
+                    hh_id = f"{building_id}_{random.randint(1, 200)}"
+
+                    all_households_detailed.append({
+                        "Household_ID": hh_id,
+                        "Building_ID": building_id,
+                        "Household_type": hh_type,
+                        "education": edu_list[i],
+                        "income": inc_list[i]
+                    })
+            # # --- SAVE EACH HOUSEHOLD WITH ITS RESIDENTS ---
+            # hh_resident_counts = {
+            #     "single_worker": 1,
+            #     "single_retired": 1,
+            #     "couple_workers": 2,
+            #     "couple_retired": 2,
+            #     "families": 3  # puoi regolare in base alla dimensione media desiderata
+            # }
+            #
+            # for hh_type, nres in hh_types_residents.items():
+            #     num_households = building_hh_count.get(hh_type, 0)
+            #     if num_households == 0:
+            #         continue
+            #
+            #     # Prendi le liste dei residenti disponibili
+            #     edu_list = household_education_detail[hh_type]["list"].copy()
+            #     inc_list = household_income_detail[hh_type]["list"].copy()
+            #
+            #     start_idx = 0
+            #     for _ in range(num_households):
+            #         hh_id = f"{building_id}_{random.randint(100000, 999999)}"
+            #         members_count = hh_resident_counts.get(hh_type, 1)
+            #
+            #         # Estrai i residenti per questo household
+            #         hh_edu = edu_list[start_idx:start_idx + members_count]
+            #         hh_inc = inc_list[start_idx:start_idx + members_count]
+            #         start_idx += members_count
+            #
+            #         # In caso di eccedenza o lista più corta, riempi con "unknown"/"below0_income"
+            #         while len(hh_edu) < members_count:
+            #             hh_edu.append("unknown_edu")
+            #         while len(hh_inc) < members_count:
+            #             hh_inc.append("below0_income")
+            #
+            #         # Conta i residenti per ciascun livello
+            #         edu_count = dict(Counter(hh_edu))
+            #         inc_count = dict(Counter(hh_inc))
+            #
+            #         all_households_detailed.append({
+            #             "Household_ID": hh_id,
+            #             "Building_ID": building_id,
+            #             "Household_type": hh_type,
+            #             "education": edu_count,
+            #             "income": inc_count
+            #         })
 
             # --- Aggregate education counts per building ---
             aggregated_education = {}
@@ -260,6 +424,38 @@ def assign_households_to_residential_buildings(census_sections, building_data):
                     if isinstance(hh, dict) and "count" in hh:
                         total += hh["count"].get(level, 0)
                 aggregated_education[level] = total
+
+            # --- Aggregate income per building ---
+            aggregated_income = {}
+
+            for level in income_levels:
+                total = 0
+                for hh in household_income_detail.values():
+                    total += hh["count"].get(level, 0)
+                aggregated_income[level] = total
+
+            # --- Assign income levels to households randomly ---
+            # start_idx = 0
+            # household_income_detail = {}
+            #
+            # for hh_type, nres in hh_types_residents.items():
+            #     assigned_inc = income_levels_list[start_idx:start_idx + nres] if nres > 0 else []
+            #     start_idx += nres
+            #     inc_counter = Counter(assigned_inc)
+            #     household_income_detail[hh_type] = {
+            #         "list": assigned_inc,
+            #         "count": dict(inc_counter)
+            #     }
+            # # --- Aggregate income counts per building ---
+            # aggregated_income = {}
+            #
+            # for level in section_income.keys():
+            #     total = 0
+            #     for hh in household_income_detail.values():
+            #         if isinstance(hh, dict) and "count" in hh:
+            #             total += hh["count"].get(level, 0)
+            #     aggregated_income[level] = total
+
 
             # --- FINAL LOCAL REBALANCING ---
             # Garantisce coerenza tra estimated_residents, education e household_types
@@ -304,6 +500,7 @@ def assign_households_to_residential_buildings(census_sections, building_data):
                 "estimated_residents": building["estimated_residents"],
                 "occupied": occupied_count,
                 "education": aggregated_education,
+                "income": aggregated_income,
                 "household_types": {
                     hh_type: hh["count"] for hh_type, hh in household_education_detail.items()
                 }
@@ -375,6 +572,13 @@ def assign_households_to_residential_buildings(census_sections, building_data):
     residents_json_path = os.path.join(output_folder, "building_estimated_residents.json")
     with open(residents_json_path, "w") as f:
         json.dump(building_estimated_residents, f, indent=2)
+
+    households_json_path = os.path.join(output_folder, "all_households_detailed.json")
+    with open(households_json_path, "w") as f:
+        json.dump(all_households_detailed, f, indent=2)
+
+    print(f"✅ Saved detailed household JSON to {households_json_path}")
+
 
 # ---- RUN PROCESS ----
 assign_households_to_residential_buildings(census_data, building_data)
