@@ -7,12 +7,12 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 4,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 4,
       "Saver": 0
     },
     "couple_retired": {
@@ -20,16 +20,21 @@
       "Average": 8,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 11,
+      "Average": 7,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 4,
       "Saver": 0
     }
   },
   "138": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 2,
       "Saver": 0
     },
     "single_retired": {
@@ -39,24 +44,29 @@
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 4,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 15,
+      "Average": 19,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 28,
+      "Average": 16,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 12,
       "Saver": 0
     }
   },
   "50": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 3,
       "Saver": 0
     },
     "single_retired": {
@@ -66,7 +76,7 @@
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 2,
       "Saver": 0
     },
     "couple_retired": {
@@ -74,43 +84,53 @@
       "Average": 3,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 4,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 3,
       "Saver": 0
     }
   },
   "3": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 1,
       "Saver": 0
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 2,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 0,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 1,
       "Saver": 0
     }
   },
   "35": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "single_retired": {
@@ -125,29 +145,66 @@
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 4,
+      "Average": 5,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 6,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 3,
       "Saver": 0
     }
   },
   "120": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 1,
       "Saver": 0
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 2,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 6,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 9,
+      "Saver": 0
+    },
+    "families_3comp": {
+      "Wasteful": 0,
+      "Average": 6,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    }
+  },
+  "132": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 8,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 2,
       "Saver": 0
     },
     "couple_retired": {
@@ -155,36 +212,14 @@
       "Average": 12,
       "Saver": 0
     },
-    "families": {
-      "Wasteful": 0,
-      "Average": 7,
-      "Saver": 0
-    }
-  },
-  "132": {
-    "single_worker": {
-      "Wasteful": 0,
-      "Average": 1,
-      "Saver": 0
-    },
-    "single_retired": {
+    "families_3comp": {
       "Wasteful": 0,
       "Average": 4,
       "Saver": 0
     },
-    "couple_workers": {
+    "families_4ormore": {
       "Wasteful": 0,
-      "Average": 3,
-      "Saver": 0
-    },
-    "couple_retired": {
-      "Wasteful": 0,
-      "Average": 13,
-      "Saver": 0
-    },
-    "families": {
-      "Wasteful": 0,
-      "Average": 17,
+      "Average": 9,
       "Saver": 0
     }
   },
@@ -196,22 +231,27 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 6,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 2,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 6,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 7,
+      "Average": 6,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 3,
       "Saver": 0
     }
   },
@@ -223,22 +263,27 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 5,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 4,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 6,
+      "Average": 5,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 20,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 11,
       "Saver": 0
     }
   },
@@ -250,12 +295,12 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 2,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 1,
       "Saver": 0
     },
     "couple_retired": {
@@ -263,21 +308,26 @@
       "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
       "Average": 6,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 4,
       "Saver": 0
     }
   },
   "87": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 1,
       "Saver": 0
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 4,
       "Saver": 0
     },
     "couple_workers": {
@@ -287,12 +337,17 @@
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 1,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 3,
       "Saver": 0
     }
   },
@@ -309,15 +364,20 @@
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 2,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "families_4ormore": {
       "Wasteful": 0,
       "Average": 7,
       "Saver": 0
@@ -336,44 +396,54 @@
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 0,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 6,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 9,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 3,
       "Saver": 0
     }
   },
   "21": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 6,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 4,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 0,
       "Saver": 0
     }
   },
@@ -385,12 +455,12 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 1,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 1,
       "Saver": 0
     },
     "couple_retired": {
@@ -398,9 +468,14 @@
       "Average": 3,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 6,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 1,
       "Saver": 0
     }
   },
@@ -422,12 +497,17 @@
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 0,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 4,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 2,
       "Saver": 0
     }
   },
@@ -439,7 +519,7 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 3,
       "Saver": 0
     },
     "couple_workers": {
@@ -449,19 +529,24 @@
     },
     "couple_retired": {
       "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "families_3comp": {
+      "Wasteful": 0,
       "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_4ormore": {
       "Wasteful": 0,
-      "Average": 6,
+      "Average": 4,
       "Saver": 0
     }
   },
   "25": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "single_retired": {
@@ -471,7 +556,7 @@
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 1,
       "Saver": 0
     },
     "couple_retired": {
@@ -479,21 +564,26 @@
       "Average": 1,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 6,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 1,
       "Saver": 0
     }
   },
   "26": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 1,
       "Saver": 0
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 0,
       "Saver": 0
     },
     "couple_workers": {
@@ -503,12 +593,17 @@
     },
     "couple_retired": {
       "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_3comp": {
+      "Wasteful": 0,
       "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_4ormore": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 3,
       "Saver": 0
     }
   },
@@ -520,61 +615,7 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 0,
-      "Saver": 0
-    },
-    "couple_workers": {
-      "Wasteful": 0,
       "Average": 3,
-      "Saver": 0
-    },
-    "couple_retired": {
-      "Wasteful": 0,
-      "Average": 4,
-      "Saver": 0
-    },
-    "families": {
-      "Wasteful": 0,
-      "Average": 7,
-      "Saver": 0
-    }
-  },
-  "101": {
-    "single_worker": {
-      "Wasteful": 0,
-      "Average": 0,
-      "Saver": 0
-    },
-    "single_retired": {
-      "Wasteful": 0,
-      "Average": 0,
-      "Saver": 0
-    },
-    "couple_workers": {
-      "Wasteful": 0,
-      "Average": 2,
-      "Saver": 0
-    },
-    "couple_retired": {
-      "Wasteful": 0,
-      "Average": 4,
-      "Saver": 0
-    },
-    "families": {
-      "Wasteful": 0,
-      "Average": 7,
-      "Saver": 0
-    }
-  },
-  "102": {
-    "single_worker": {
-      "Wasteful": 0,
-      "Average": 0,
-      "Saver": 0
-    },
-    "single_retired": {
-      "Wasteful": 0,
-      "Average": 2,
       "Saver": 0
     },
     "couple_workers": {
@@ -584,19 +625,56 @@
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 6,
+      "Average": 3,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
       "Wasteful": 0,
       "Average": 4,
       "Saver": 0
     }
   },
-  "103": {
+  "101": {
     "single_worker": {
       "Wasteful": 0,
       "Average": 2,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "families_3comp": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    }
+  },
+  "102": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
       "Saver": 0
     },
     "single_retired": {
@@ -606,24 +684,61 @@
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 2,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 1,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    }
+  },
+  "103": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_retired": {
       "Wasteful": 0,
       "Average": 4,
+      "Saver": 0
+    },
+    "families_3comp": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 3,
       "Saver": 0
     }
   },
   "104": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "single_retired": {
@@ -633,7 +748,7 @@
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 1,
       "Saver": 0
     },
     "couple_retired": {
@@ -641,9 +756,14 @@
       "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 7,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 4,
       "Saver": 0
     }
   },
@@ -655,55 +775,33 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 4,
+      "Average": 2,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 1,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 4,
+      "Average": 3,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 6,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 3,
       "Saver": 0
     }
   },
   "108": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 0,
-      "Saver": 0
-    },
-    "single_retired": {
-      "Wasteful": 0,
-      "Average": 2,
-      "Saver": 0
-    },
-    "couple_workers": {
-      "Wasteful": 0,
-      "Average": 2,
-      "Saver": 0
-    },
-    "couple_retired": {
-      "Wasteful": 0,
-      "Average": 5,
-      "Saver": 0
-    },
-    "families": {
-      "Wasteful": 0,
-      "Average": 8,
-      "Saver": 0
-    }
-  },
-  "12": {
-    "single_worker": {
-      "Wasteful": 0,
       "Average": 1,
       "Saver": 0
     },
@@ -719,16 +817,21 @@
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 3,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 4,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 5,
       "Saver": 0
     }
   },
-  "14": {
+  "12": {
     "single_worker": {
       "Wasteful": 0,
       "Average": 0,
@@ -746,12 +849,49 @@
     },
     "couple_retired": {
       "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "families_3comp": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    }
+  },
+  "14": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
       "Average": 0,
       "Saver": 0
     },
-    "families": {
+    "couple_workers": {
       "Wasteful": 0,
-      "Average": 8,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_3comp": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 2,
       "Saver": 0
     }
   },
@@ -763,7 +903,7 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 1,
       "Saver": 0
     },
     "couple_workers": {
@@ -773,24 +913,29 @@
     },
     "couple_retired": {
       "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families_3comp": {
+      "Wasteful": 0,
       "Average": 3,
       "Saver": 0
     },
-    "families": {
+    "families_4ormore": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 2,
       "Saver": 0
     }
   },
   "16": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 2,
       "Saver": 0
     },
     "couple_workers": {
@@ -800,24 +945,61 @@
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 3,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 4,
+      "Average": 0,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 2,
       "Saver": 0
     }
   },
   "17": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "single_retired": {
       "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_3comp": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
       "Average": 1,
+      "Saver": 0
+    }
+  },
+  "52": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 4,
       "Saver": 0
     },
     "couple_workers": {
@@ -830,36 +1012,14 @@
       "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
       "Average": 4,
       "Saver": 0
-    }
-  },
-  "52": {
-    "single_worker": {
-      "Wasteful": 0,
-      "Average": 1,
-      "Saver": 0
     },
-    "single_retired": {
+    "families_4ormore": {
       "Wasteful": 0,
       "Average": 3,
-      "Saver": 0
-    },
-    "couple_workers": {
-      "Wasteful": 0,
-      "Average": 0,
-      "Saver": 0
-    },
-    "couple_retired": {
-      "Wasteful": 0,
-      "Average": 3,
-      "Saver": 0
-    },
-    "families": {
-      "Wasteful": 0,
-      "Average": 6,
       "Saver": 0
     }
   },
@@ -871,22 +1031,27 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 3,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 1,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 1,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 7,
+      "Average": 4,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 4,
       "Saver": 0
     }
   },
@@ -898,34 +1063,39 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 0,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 1,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 6,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 7,
+      "Average": 4,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 1,
       "Saver": 0
     }
   },
   "55": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 1,
       "Saver": 0
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "couple_workers": {
@@ -935,19 +1105,24 @@
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 1,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 8,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 2,
       "Saver": 0
     }
   },
   "56": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 1,
       "Saver": 0
     },
     "single_retired": {
@@ -957,17 +1132,22 @@
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 2,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 1,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 3,
       "Saver": 0
     }
   },
@@ -979,7 +1159,7 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "couple_workers": {
@@ -989,39 +1169,49 @@
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 3,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 4,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 0,
       "Saver": 0
     }
   },
   "58": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 2,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 2,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 8,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 5,
       "Saver": 0
     }
   },
@@ -1033,61 +1223,7 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 3,
-      "Saver": 0
-    },
-    "couple_workers": {
-      "Wasteful": 0,
       "Average": 0,
-      "Saver": 0
-    },
-    "couple_retired": {
-      "Wasteful": 0,
-      "Average": 3,
-      "Saver": 0
-    },
-    "families": {
-      "Wasteful": 0,
-      "Average": 3,
-      "Saver": 0
-    }
-  },
-  "60": {
-    "single_worker": {
-      "Wasteful": 0,
-      "Average": 0,
-      "Saver": 0
-    },
-    "single_retired": {
-      "Wasteful": 0,
-      "Average": 3,
-      "Saver": 0
-    },
-    "couple_workers": {
-      "Wasteful": 0,
-      "Average": 0,
-      "Saver": 0
-    },
-    "couple_retired": {
-      "Wasteful": 0,
-      "Average": 2,
-      "Saver": 0
-    },
-    "families": {
-      "Wasteful": 0,
-      "Average": 5,
-      "Saver": 0
-    }
-  },
-  "124": {
-    "single_worker": {
-      "Wasteful": 0,
-      "Average": 2,
-      "Saver": 0
-    },
-    "single_retired": {
-      "Wasteful": 0,
-      "Average": 1,
       "Saver": 0
     },
     "couple_workers": {
@@ -1100,9 +1236,78 @@
       "Average": 4,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 7,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    }
+  },
+  "60": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_3comp": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    }
+  },
+  "124": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families_3comp": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 5,
       "Saver": 0
     }
   },
@@ -1114,7 +1319,7 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 4,
+      "Average": 2,
       "Saver": 0
     },
     "couple_workers": {
@@ -1124,39 +1329,49 @@
     },
     "couple_retired": {
       "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families_3comp": {
+      "Wasteful": 0,
       "Average": 6,
       "Saver": 0
     },
-    "families": {
+    "families_4ormore": {
       "Wasteful": 0,
-      "Average": 9,
+      "Average": 6,
       "Saver": 0
     }
   },
   "126": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 0,
       "Saver": 0
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 3,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 2,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 4,
+      "Average": 5,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 6,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 4,
       "Saver": 0
     }
   },
@@ -1168,12 +1383,12 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 2,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 1,
       "Saver": 0
     },
     "couple_retired": {
@@ -1181,21 +1396,58 @@
       "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 0,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 3,
       "Saver": 0
     }
   },
   "127": {
     "single_worker": {
       "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families_3comp": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    }
+  },
+  "111": {
+    "single_worker": {
+      "Wasteful": 0,
       "Average": 0,
       "Saver": 0
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 1,
       "Saver": 0
     },
     "couple_workers": {
@@ -1205,39 +1457,17 @@
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 6,
+      "Average": 4,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 8,
-      "Saver": 0
-    }
-  },
-  "111": {
-    "single_worker": {
-      "Wasteful": 0,
-      "Average": 1,
+      "Average": 2,
       "Saver": 0
     },
-    "single_retired": {
+    "families_4ormore": {
       "Wasteful": 0,
-      "Average": 1,
-      "Saver": 0
-    },
-    "couple_workers": {
-      "Wasteful": 0,
-      "Average": 3,
-      "Saver": 0
-    },
-    "couple_retired": {
-      "Wasteful": 0,
-      "Average": 3,
-      "Saver": 0
-    },
-    "families": {
-      "Wasteful": 0,
-      "Average": 5,
+      "Average": 4,
       "Saver": 0
     }
   },
@@ -1249,7 +1479,7 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 1,
       "Saver": 0
     },
     "couple_workers": {
@@ -1262,9 +1492,14 @@
       "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 4,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 2,
       "Saver": 0
     }
   },
@@ -1276,7 +1511,7 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 4,
       "Saver": 0
     },
     "couple_workers": {
@@ -1286,19 +1521,24 @@
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 4,
+      "Average": 6,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 12,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 5,
       "Saver": 0
     }
   },
   "137": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 2,
       "Saver": 0
     },
     "single_retired": {
@@ -1308,7 +1548,7 @@
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "couple_retired": {
@@ -1316,9 +1556,14 @@
       "Average": 5,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 9,
+      "Average": 6,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 3,
       "Saver": 0
     }
   },
@@ -1330,7 +1575,7 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 3,
       "Saver": 0
     },
     "couple_workers": {
@@ -1340,12 +1585,17 @@
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 9,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 3,
       "Saver": 0
     }
   },
@@ -1362,7 +1612,7 @@
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "couple_retired": {
@@ -1370,16 +1620,21 @@
       "Average": 1,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 3,
       "Saver": 0
     }
   },
   "113": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 2,
       "Saver": 0
     },
     "single_retired": {
@@ -1397,96 +1652,20 @@
       "Average": 3,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 8,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 3,
       "Saver": 0
     }
   },
   "114": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 0,
-      "Saver": 0
-    },
-    "single_retired": {
-      "Wasteful": 0,
-      "Average": 1,
-      "Saver": 0
-    },
-    "couple_workers": {
-      "Wasteful": 0,
-      "Average": 0,
-      "Saver": 0
-    },
-    "couple_retired": {
-      "Wasteful": 0,
-      "Average": 2,
-      "Saver": 0
-    },
-    "families": {
-      "Wasteful": 0,
-      "Average": 11,
-      "Saver": 0
-    }
-  },
-  "66": {
-    "single_worker": {
-      "Wasteful": 0,
-      "Average": 0,
-      "Saver": 0
-    },
-    "single_retired": {
-      "Wasteful": 0,
-      "Average": 1,
-      "Saver": 0
-    },
-    "couple_workers": {
-      "Wasteful": 0,
-      "Average": 4,
-      "Saver": 0
-    },
-    "couple_retired": {
-      "Wasteful": 0,
-      "Average": 2,
-      "Saver": 0
-    },
-    "families": {
-      "Wasteful": 0,
-      "Average": 2,
-      "Saver": 0
-    }
-  },
-  "90": {
-    "single_worker": {
-      "Wasteful": 0,
-      "Average": 2,
-      "Saver": 0
-    },
-    "single_retired": {
-      "Wasteful": 0,
-      "Average": 0,
-      "Saver": 0
-    },
-    "couple_workers": {
-      "Wasteful": 0,
-      "Average": 2,
-      "Saver": 0
-    },
-    "couple_retired": {
-      "Wasteful": 0,
-      "Average": 2,
-      "Saver": 0
-    },
-    "families": {
-      "Wasteful": 0,
-      "Average": 4,
-      "Saver": 0
-    }
-  },
-  "91": {
-    "single_worker": {
-      "Wasteful": 0,
       "Average": 1,
       "Saver": 0
     },
@@ -1505,7 +1684,108 @@
       "Average": 3,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 6,
+      "Saver": 0
+    }
+  },
+  "66": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "families_3comp": {
+      "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    }
+  },
+  "90": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_3comp": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    }
+  },
+  "91": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families_3comp": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
       "Wasteful": 0,
       "Average": 3,
       "Saver": 0
@@ -1519,7 +1799,7 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "couple_workers": {
@@ -1529,46 +1809,56 @@
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 4,
+      "Average": 5,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
       "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 0,
       "Saver": 0
     }
   },
   "99": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 1,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 2,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 10,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 8,
       "Saver": 0
     }
   },
   "133": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 2,
       "Saver": 0
     },
     "single_retired": {
@@ -1578,44 +1868,54 @@
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 4,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 6,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 10,
+      "Average": 4,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 3,
       "Saver": 0
     }
   },
   "134": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 2,
       "Saver": 0
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 3,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 4,
+      "Average": 5,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 9,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 11,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 3,
       "Saver": 0
     }
   },
@@ -1632,24 +1932,29 @@
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 0,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 2,
       "Saver": 0
     }
   },
   "11": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 1,
       "Saver": 0
     },
     "single_retired": {
@@ -1667,16 +1972,21 @@
       "Average": 1,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 2,
       "Saver": 0
     }
   },
   "109": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 0,
       "Saver": 0
     },
     "single_retired": {
@@ -1686,24 +1996,29 @@
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 1,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 4,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 6,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 4,
       "Saver": 0
     }
   },
   "110": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 2,
       "Saver": 0
     },
     "single_retired": {
@@ -1713,7 +2028,7 @@
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "couple_retired": {
@@ -1721,9 +2036,14 @@
       "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 6,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 5,
       "Saver": 0
     }
   },
@@ -1735,22 +2055,27 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 1,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 4,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 9,
+      "Average": 4,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 8,
       "Saver": 0
     }
   },
@@ -1767,17 +2092,22 @@
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 1,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_3comp": {
+      "Wasteful": 0,
       "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_4ormore": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 3,
       "Saver": 0
     }
   },
@@ -1794,17 +2124,22 @@
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 0,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 4,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 4,
       "Saver": 0
     }
   },
@@ -1821,15 +2156,20 @@
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 3,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 0,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "families_4ormore": {
       "Wasteful": 0,
       "Average": 5,
       "Saver": 0
@@ -1843,12 +2183,12 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 3,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "couple_retired": {
@@ -1856,9 +2196,14 @@
       "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 3,
       "Saver": 0
     }
   },
@@ -1870,22 +2215,27 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 1,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 1,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 1,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 2,
       "Saver": 0
     }
   },
@@ -1897,7 +2247,7 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 1,
       "Saver": 0
     },
     "couple_workers": {
@@ -1907,24 +2257,29 @@
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 3,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 4,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 0,
       "Saver": 0
     }
   },
   "42": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 3,
       "Saver": 0
     },
     "couple_workers": {
@@ -1937,9 +2292,14 @@
       "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 1,
       "Saver": 0
     }
   },
@@ -1951,7 +2311,7 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 1,
       "Saver": 0
     },
     "couple_workers": {
@@ -1961,12 +2321,17 @@
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 4,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 2,
       "Saver": 0
     }
   },
@@ -1978,29 +2343,34 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 1,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 0,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 1,
       "Saver": 0
     }
   },
   "45": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "single_retired": {
@@ -2010,7 +2380,7 @@
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 2,
       "Saver": 0
     },
     "couple_retired": {
@@ -2018,9 +2388,14 @@
       "Average": 1,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 4,
+      "Average": 0,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 3,
       "Saver": 0
     }
   },
@@ -2032,7 +2407,7 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 0,
       "Saver": 0
     },
     "couple_workers": {
@@ -2042,10 +2417,15 @@
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 0,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families_4ormore": {
       "Wasteful": 0,
       "Average": 2,
       "Saver": 0
@@ -2064,51 +2444,61 @@
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 2,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 1,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
       "Average": 1,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 2,
       "Saver": 0
     }
   },
   "93": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 1,
       "Saver": 0
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 2,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 9,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 6,
       "Saver": 0
     }
   },
   "94": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 1,
       "Saver": 0
     },
     "single_retired": {
@@ -2118,17 +2508,22 @@
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 2,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families_3comp": {
+      "Wasteful": 0,
       "Average": 3,
       "Saver": 0
     },
-    "families": {
+    "families_4ormore": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 3,
       "Saver": 0
     }
   },
@@ -2140,20 +2535,25 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 2,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 2,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 8,
+      "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
+      "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
       "Wasteful": 0,
       "Average": 3,
       "Saver": 0
@@ -2167,7 +2567,7 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 2,
       "Saver": 0
     },
     "couple_workers": {
@@ -2177,39 +2577,49 @@
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 4,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 6,
+      "Average": 4,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 2,
       "Saver": 0
     }
   },
   "97": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 2,
       "Saver": 0
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 1,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 1,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 8,
+      "Average": 4,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 3,
       "Saver": 0
     }
   },
@@ -2221,7 +2631,7 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 4,
       "Saver": 0
     },
     "couple_workers": {
@@ -2231,45 +2641,23 @@
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 6,
+      "Average": 4,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 8,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 3,
       "Saver": 0
     }
   },
   "121": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 0,
-      "Saver": 0
-    },
-    "single_retired": {
-      "Wasteful": 0,
-      "Average": 1,
-      "Saver": 0
-    },
-    "couple_workers": {
-      "Wasteful": 0,
-      "Average": 1,
-      "Saver": 0
-    },
-    "couple_retired": {
-      "Wasteful": 0,
-      "Average": 6,
-      "Saver": 0
-    },
-    "families": {
-      "Wasteful": 0,
-      "Average": 11,
-      "Saver": 0
-    }
-  },
-  "122": {
-    "single_worker": {
-      "Wasteful": 0,
       "Average": 2,
       "Saver": 0
     },
@@ -2280,7 +2668,7 @@
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 4,
+      "Average": 2,
       "Saver": 0
     },
     "couple_retired": {
@@ -2288,13 +2676,18 @@
       "Average": 5,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 7,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 6,
       "Saver": 0
     }
   },
-  "123": {
+  "122": {
     "single_worker": {
       "Wasteful": 0,
       "Average": 0,
@@ -2302,7 +2695,39 @@
     },
     "single_retired": {
       "Wasteful": 0,
+      "Average": 4,
+      "Saver": 0
+    },
+    "couple_workers": {
+      "Wasteful": 0,
+      "Average": 0,
+      "Saver": 0
+    },
+    "couple_retired": {
+      "Wasteful": 0,
       "Average": 6,
+      "Saver": 0
+    },
+    "families_3comp": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    }
+  },
+  "123": {
+    "single_worker": {
+      "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "single_retired": {
+      "Wasteful": 0,
+      "Average": 3,
       "Saver": 0
     },
     "couple_workers": {
@@ -2312,12 +2737,17 @@
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 4,
+      "Average": 6,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 8,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 5,
       "Saver": 0
     }
   },
@@ -2329,7 +2759,7 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 1,
       "Saver": 0
     },
     "couple_workers": {
@@ -2339,24 +2769,29 @@
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 5,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 6,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 3,
       "Saver": 0
     }
   },
   "70": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 3,
       "Saver": 0
     },
     "couple_workers": {
@@ -2366,12 +2801,17 @@
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 1,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 4,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 2,
       "Saver": 0
     }
   },
@@ -2383,22 +2823,27 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 1,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 3,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 2,
       "Saver": 0
     }
   },
@@ -2415,24 +2860,29 @@
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 1,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 4,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 2,
       "Saver": 0
     }
   },
   "75": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 2,
       "Saver": 0
     },
     "single_retired": {
@@ -2442,29 +2892,34 @@
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 2,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 8,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 0,
       "Saver": 0
     }
   },
   "72": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 1,
       "Saver": 0
     },
     "couple_workers": {
@@ -2474,24 +2929,29 @@
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 4,
+      "Average": 3,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
       "Average": 2,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 3,
       "Saver": 0
     }
   },
   "76": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 0,
       "Saver": 0
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 4,
+      "Average": 0,
       "Saver": 0
     },
     "couple_workers": {
@@ -2501,10 +2961,15 @@
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 5,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
+      "Wasteful": 0,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families_4ormore": {
       "Wasteful": 0,
       "Average": 3,
       "Saver": 0
@@ -2523,61 +2988,71 @@
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families_3comp": {
+      "Wasteful": 0,
       "Average": 4,
       "Saver": 0
     },
-    "families": {
+    "families_4ormore": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 2,
       "Saver": 0
     }
   },
   "129": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 1,
       "Saver": 0
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 4,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 3,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 7,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 12,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 4,
       "Saver": 0
     }
   },
   "130": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 1,
       "Saver": 0
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 4,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 1,
       "Saver": 0
     },
     "couple_retired": {
@@ -2585,9 +3060,14 @@
       "Average": 6,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 13,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 8,
       "Saver": 0
     }
   },
@@ -2599,7 +3079,7 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 3,
       "Saver": 0
     },
     "couple_workers": {
@@ -2609,12 +3089,17 @@
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 4,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 8,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 3,
       "Saver": 0
     }
   },
@@ -2626,7 +3111,7 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 0,
       "Saver": 0
     },
     "couple_workers": {
@@ -2636,56 +3121,66 @@
     },
     "couple_retired": {
       "Wasteful": 0,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_3comp": {
+      "Wasteful": 0,
       "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_4ormore": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 1,
       "Saver": 0
     }
   },
   "36": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 2,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 3,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 9,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 4,
       "Saver": 0
     }
   },
   "37": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 4,
+      "Average": 2,
       "Saver": 0
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 4,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 1,
       "Saver": 0
     },
     "couple_retired": {
@@ -2693,9 +3188,14 @@
       "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
       "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 2,
       "Saver": 0
     }
   },
@@ -2707,7 +3207,7 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 1,
       "Saver": 0
     },
     "couple_workers": {
@@ -2717,39 +3217,49 @@
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 1,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 4,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 2,
       "Saver": 0
     }
   },
   "39": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 2,
       "Saver": 0
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 0,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 5,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 10,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 2,
       "Saver": 0
     }
   },
@@ -2761,7 +3271,7 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 3,
       "Saver": 0
     },
     "couple_workers": {
@@ -2771,39 +3281,49 @@
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 4,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 13,
+      "Average": 11,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 5,
       "Saver": 0
     }
   },
   "29": {
     "single_worker": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 3,
       "Saver": 0
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 0,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 3,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families_3comp": {
+      "Wasteful": 0,
       "Average": 4,
       "Saver": 0
     },
-    "families": {
+    "families_4ormore": {
       "Wasteful": 0,
-      "Average": 7,
+      "Average": 1,
       "Saver": 0
     }
   },
@@ -2815,12 +3335,12 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 2,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 0,
       "Saver": 0
     },
     "couple_retired": {
@@ -2828,9 +3348,14 @@
       "Average": 5,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 7,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 4,
       "Saver": 0
     }
   },
@@ -2842,22 +3367,27 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 2,
+      "Average": 1,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 3,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
+      "Average": 5,
+      "Saver": 0
+    },
+    "families_3comp": {
+      "Wasteful": 0,
       "Average": 2,
       "Saver": 0
     },
-    "families": {
+    "families_4ormore": {
       "Wasteful": 0,
-      "Average": 7,
+      "Average": 5,
       "Saver": 0
     }
   },
@@ -2879,12 +3409,17 @@
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 4,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 3,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 3,
       "Saver": 0
     }
   },
@@ -2896,22 +3431,27 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 3,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 2,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 6,
+      "Average": 5,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 6,
+      "Average": 1,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 2,
       "Saver": 0
     }
   },
@@ -2923,22 +3463,27 @@
     },
     "single_retired": {
       "Wasteful": 0,
-      "Average": 1,
+      "Average": 3,
       "Saver": 0
     },
     "couple_workers": {
       "Wasteful": 0,
-      "Average": 0,
+      "Average": 1,
       "Saver": 0
     },
     "couple_retired": {
       "Wasteful": 0,
-      "Average": 5,
+      "Average": 1,
       "Saver": 0
     },
-    "families": {
+    "families_3comp": {
       "Wasteful": 0,
-      "Average": 3,
+      "Average": 2,
+      "Saver": 0
+    },
+    "families_4ormore": {
+      "Wasteful": 0,
+      "Average": 2,
       "Saver": 0
     }
   }
