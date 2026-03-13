@@ -15,6 +15,7 @@ community_file=Path(r"C:\Users\franc\Desktop\ABM Bari\Elaboration_REC\community_
 # =========================
 # Lettura fogli necessari
 # =========================
+
 valutazione_CER_df = pd.read_excel(community_file, sheet_name="valutazione CER")
 import_df = pd.read_excel(community_file, sheet_name="Import_kWh")
 export_df = pd.read_excel(community_file, sheet_name="Export_kWh")

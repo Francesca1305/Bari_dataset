@@ -2,6 +2,18 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
+"""script to calculate the energy and financial trend of the P2P with IDP scheme for the Bari district. 
+The script is based on the elaborations from CEA, stored in an excel file, which includes:
+- main energy variables at hourly resolution for each building;
+- "valutazione_CER" sheet for community-level evaluation of CSC
+- CSC-related energy and financial evaluation at hourly resolution for each building"""
+
+# input file
+community_file = Path(r"C:\Users\franc\Desktop\ABM Bari\Elaboration_REC\community_bybuilding_BAU_scenario_prova3_stochastic.xlsx")
+
+# Save to Excel
+output_IDP_file = Path(r"C:\Users\franc\Desktop\ABM Bari\Elaboration_REC\P2P_with_IDP.xlsx")
+
 def calculate_dynamic_price(demand, generation, import_grid,
                             export_generation, base_price, alpha, k, wholesale_price, access_charges):
     # Substitute values = 0 in the generation
@@ -37,27 +49,29 @@ def calculate_dynamic_price(demand, generation, import_grid,
     return (SDR, PD_factor, IDP, access_charges, collective_SC, costs_collective_SC,
             surplus_REC, deficit_REC, surplus_REC_revenues, deficit_REC_costs)
 
-
-# =========================
-# INPUT
-# =========================
-community_file = Path(
-    r"C:\Users\franc\Desktop\ABM Bari\Elaboration_REC\community_bybuilding_BAU_scenario_prova3_stochastic.xlsx"
-)
-
-# =========================
 # Read valutazione CER
-# =========================
-valutazione_CER_df = pd.read_excel(community_file, sheet_name="valutazione CER")
+initial_demand_df = pd.read_excel(community_file, sheet_name="Demand_kWh")
+initial_PV_production_df = pd.read_excel(community_file, sheet_name="PV_kWh")
+physical_selfcons_df = pd.read_excel(community_file, sheet_name="Self_consumption_kWh")
 import_df = pd.read_excel(community_file, sheet_name="Import_kWh")
 export_df = pd.read_excel(community_file, sheet_name="Export_kWh")
+import_costs_df = pd.read_excel(community_file, sheet_name="Import_costs")
 
-valutazione_CER_df['Date'] = pd.to_datetime(valutazione_CER_df['Date'])
-#valutazione_CER_df.reset_index('Date', inplace=True)
+initial_demand_df['Date'] = pd.to_datetime(initial_demand_df['Date'])
+initial_demand_df['Date'] = pd.to_datetime(initial_demand_df['Date'])
+physical_selfcons_df['Date'] = pd.to_datetime(physical_selfcons_df['Date'])
 import_df['Date'] = pd.to_datetime(import_df['Date'])
 export_df['Date'] = pd.to_datetime(export_df['Date'])
+
+valutazione_CER_df = pd.read_excel(community_file, sheet_name="valutazione CER")
+valutazione_CER_df['Date'] = pd.to_datetime(valutazione_CER_df['Date'])
+#valutazione_CER_df.reset_index('Date', inplace=True)
+
 building_ids = [c for c in import_df.columns if c != "Date"]
-import_values = import_df[building_ids].values      # (8760, n_buildings)
+initial_demand_values = initial_demand_df[building_ids].values
+initial_PV_prod_values = initial_PV_production_df[building_ids].values
+physical_selfcons_values = physical_selfcons_df[building_ids].values
+import_values = import_df[building_ids].values
 export_values = export_df[building_ids].values
 
 # =========================
@@ -72,20 +86,16 @@ np.divide(
     export_values,
     export_sum,
     out=export_shares,
-    where=export_sum > 0
-)
+    where=export_sum > 0)
+
 import_shares = np.zeros_like(import_values)
 np.divide(
     import_values,
     import_sum,
     out=import_shares,
-    where=import_sum > 0
-)
+    where=import_sum > 0)
 
-
-# =========================
-# Extract variables
-# =========================
+# Extract variables da community "valutazione CER" sheet
 demand = valutazione_CER_df['total_cons'].values
 generation = valutazione_CER_df['total_PV'].values
 import_grid = valutazione_CER_df['import'].values
@@ -97,15 +107,11 @@ wholesale_price = valutazione_CER_df['Price surplus'].values
 # 👉 se non li hai orari, puoi usare un valore fisso
 access_charges = 0  # oppure €/kWh costante
 
-# =========================
 # IDP parameters
-# =========================
 alpha = 0.3
 k = 0.5
 
-# =========================
 # Apply IDP
-# =========================
 (SDR, PD_factor, IDP, access_charges, collective_SC,
  costs_collective_SC, surplus_REC, deficit_REC,
  surplus_REC_revenues, deficit_REC_costs) = (
@@ -118,15 +124,11 @@ k = 0.5
         alpha,
         k,
         wholesale_price,
-        access_charges
-    )
-)
+        access_charges))
 
-# =========================
-# Results DataFrame
-# =========================
+# Results DataFrame per sheet community
 results_IDP = pd.DataFrame({
-    "Date": valutazione_CER_df.index,
+    "Date": valutazione_CER_df['Date'],
     "Demand": demand,
     "Generation": generation,
     "Import": import_grid,
@@ -156,15 +158,9 @@ IDP = IDP.reshape(-1, 1)
 CSC_distributed_import = collective_SC * import_shares
 CSC_distributed_export = collective_SC * export_shares
 revenues_after_REC_distributed = surplus_REC_revenues * export_shares
-Energy_costs_IDP_import = CSC_distributed_import*IDP + (import_values-CSC_distributed_import)*base_price
+Energy_costs_IDP_import = (CSC_distributed_import*IDP +
+                           (import_values-CSC_distributed_import)*base_price)
 IDP_distributed_revenues = (collective_SC * export_shares) * IDP
-
-# =========================
-# Save to Excel
-# =========================
-output_IDP_file = Path(
-    r"C:\Users\franc\Desktop\ABM Bari\Elaboration_REC\P2P_with_IDP.xlsx"
-)
 
 # =========================
 # Creazione DataFrame finale
@@ -183,9 +179,14 @@ distribution_revenues_after_REC_df.insert(0, 'Date', valutazione_CER_df['Date'])
 # =========================
 # Scrittura nuovo sheet
 # =========================
-
 with pd.ExcelWriter(output_IDP_file, engine="openpyxl", mode="w") as writer:
     results_IDP.to_excel(writer, sheet_name="IDP_community", index=False)
+    initial_demand_df.to_excel(writer, sheet_name="Initial_demand", index=False)
+    initial_PV_production_df.to_excel(writer, sheet_name="Initial_PV_production", index=False)
+    physical_selfcons_df.to_excel(writer, sheet_name="Physical_selfcons", index=False)
+    import_df.to_excel(writer, sheet_name="Import", index=False)
+    export_df.to_excel(writer, sheet_name="Export", index=False)
+    import_costs_df.to_excel(writer, sheet_name="Import_costs", index=False)
     distribution_CSC_import_df.to_excel(writer, sheet_name="CSC_import", index=False)
     distribution_CSC_export_df.to_excel(writer, sheet_name="CSC_export", index=False)
     distribution_IDP_revenues_df.to_excel(writer, sheet_name="CSC_rev_IDP", index=False)
