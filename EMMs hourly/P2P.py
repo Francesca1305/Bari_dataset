@@ -58,7 +58,6 @@ export_df = pd.read_excel(community_file, sheet_name="Export_kWh")
 import_costs_df = pd.read_excel(community_file, sheet_name="Import_costs")
 
 initial_demand_df['Date'] = pd.to_datetime(initial_demand_df['Date'])
-initial_demand_df['Date'] = pd.to_datetime(initial_demand_df['Date'])
 physical_selfcons_df['Date'] = pd.to_datetime(physical_selfcons_df['Date'])
 import_df['Date'] = pd.to_datetime(import_df['Date'])
 export_df['Date'] = pd.to_datetime(export_df['Date'])
