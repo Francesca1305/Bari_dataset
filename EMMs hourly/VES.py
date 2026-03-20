@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
-name_scenario = "Retrofit_II_0.20PV"
+#name_scenario = "Retrofit_II_0.20PV"
 
 # Percorso file Excel
 # community_file = Path(
@@ -11,16 +11,17 @@ name_scenario = "Retrofit_II_0.20PV"
 # )
 
 community_file=Path(r"C:\Users\franc\Desktop\ABM Bari\Elaboration_REC\community_bybuilding_BAU_scenario_prova3_stochastic.xlsx")
+costs_file = Path(r"C:\Users\franc\PythonProject\Bari_dataset\Elaboration REC\Building_costs.xlsx")
 
 # =========================
 # Lettura fogli necessari
 # =========================
 
 valutazione_CER_df = pd.read_excel(community_file, sheet_name="valutazione CER")
+demand_df = pd.read_excel(community_file, sheet_name="Demand_kWh")
 import_df = pd.read_excel(community_file, sheet_name="Import_kWh")
 export_df = pd.read_excel(community_file, sheet_name="Export_kWh")
-
-'''eventualmente, aggiungere revenues con meccanismo Rid'''
+tariff_df = pd.read_excel(costs_file, sheet_name="Prices")
 
 
 # Lista edifici (tutte le colonne tranne Date)
@@ -32,6 +33,8 @@ building_ids = [c for c in import_df.columns if c != "Date"]
 valutazione_CER_df['Date'] = pd.to_datetime(valutazione_CER_df['Date'])
 import_df['Date'] = pd.to_datetime(import_df['Date'])
 export_df['Date'] = pd.to_datetime(export_df['Date'])
+demand_df['Date'] = pd.to_datetime(demand_df['Date'])
+tariff_df['Date'] = pd.to_datetime(tariff_df['Date'])
 
 # =========================
 # Estrazione CSC ed Export
@@ -43,6 +46,19 @@ RiD = valutazione_CER_df['Price surplus'].values.reshape(-1, 1)
 Revenues_surplus_after_REC = valutazione_CER_df['Energy revenues REC_surplus'].values.reshape(-1, 1)
 import_values = import_df[building_ids].values      # (8760, n_buildings)
 export_values = export_df[building_ids].values
+demand_values = demand_df[building_ids].values
+
+tariff_df = tariff_df.set_index('Date')
+
+# Verifica edifici mancanti
+missing = [b for b in building_ids if b not in tariff_df.columns]
+if missing:
+    raise ValueError(f"Edifici mancanti nel foglio Prices: {missing}")
+
+# Allinea colonne all'ordine di building_ids e converti in numpy
+tariff_values = tariff_df[building_ids].values  # ← ora l'ordine è garantito
+
+initial_BAU_energy_costs = demand_values * tariff_values
 
 # =========================
 # Calcolo quote di export
@@ -91,6 +107,8 @@ energy_costs_import_df = pd.DataFrame(Energy_costs_import, columns=building_ids)
 energy_costs_import_df.insert(0, 'Date', valutazione_CER_df['Date'])
 distribution_revenues_after_REC_df = pd.DataFrame(revenues_after_REC_distributed, columns=building_ids)
 distribution_revenues_after_REC_df.insert(0, 'Date', valutazione_CER_df['Date'])
+initial_BAU_energy_costs_df = pd.DataFrame(initial_BAU_energy_costs, columns=building_ids)
+initial_BAU_energy_costs_df.insert(0, 'Date', valutazione_CER_df['Date'])
 
 # =========================
 # Scrittura nuovo sheet
@@ -102,6 +120,7 @@ with pd.ExcelWriter(community_file, engine="openpyxl", mode="a", if_sheet_exists
     distribution_CSC_revenues_withRiD_df.to_excel(writer, sheet_name="CSC_rev_TIP_RiD", index=False)
     energy_costs_import_df.to_excel(writer, sheet_name="Import_costs", index=False)
     distribution_revenues_after_REC_df.to_excel(writer, sheet_name="REC_surplus_rev", index=False)
+    initial_BAU_energy_costs_df.to_excel(writer, sheet_name="Initial_BAU_energy_costs", index=False)
 
 
 print("Sheet creato correttamente.")

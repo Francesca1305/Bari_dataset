@@ -88,6 +88,17 @@ df_export = df_export.set_index('Date')
 df_prices = df_prices.set_index('Date')
 df_syst_charges = df_syst_charges.set_index('Date')
 df_initial_costs = df_initial_costs.set_index('Date')
+building_col_ids = [f"B{b}" for b in building_ids]
+
+# Verifica che tutti gli edifici siano presenti in Prices
+price_cols = df_prices.columns.tolist()
+missing = [c for c in building_col_ids if c not in price_cols]
+if missing:
+    raise ValueError(f"Edifici mancanti nel foglio Prices: {missing}")
+
+# ✅ Moltiplica DataFrame × DataFrame: pandas allinea automaticamente per nome colonna
+# Entrambi hanno Date come index → nessun problema di shape
+initial_BAU_energy_costs = df_consumption * df_prices
 
 # Function to calculate monthly summation of import and export values
 def calculate_monthly_sum(df):
@@ -102,6 +113,7 @@ monthly_prices = df_prices.groupby(df_prices.index.month).mean()
 system_access_monthly = df_syst_charges.groupby(df_syst_charges.index.month).sum()
 consumption_monthly = calculate_monthly_sum(df_consumption)
 initial_costs_after_PSC = calculate_monthly_sum(df_initial_costs)
+initial_BAU_energy_costs = calculate_monthly_sum(initial_BAU_energy_costs)
 
 # # NET METERING NO 50 kW peak threshold
 def calculate_credit_distribution_nopeak(import_monthly, export_monthly,
@@ -229,3 +241,4 @@ with (pd.ExcelWriter(output_file_NM_nopeak, engine='openpyxl') as writer):
     self_consumed_onlyNM.to_excel(writer, sheet_name='Self consumed onlyNM')
     self_consumed_total.to_excel(writer, sheet_name='Self_consumed_total')
     monthly_access_charges.to_excel(writer, sheet_name='Monthly access charges')
+    initial_BAU_energy_costs.to_excel(writer, sheet_name='Initial BAU energy costs')
