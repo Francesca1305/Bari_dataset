@@ -104,11 +104,11 @@ for file in csv_files_radiation:
 
     pv_recap_rows.append({
         'Building': building_id,
-        'Rad_total_annual_kWh': df['roofs_top_kW'].sum(), # radiazione totale annua [kWh]
-        'PV_area_m2': pv_area.iloc[0],                    # area PV installata [m2]
-        'n_panels': pv_area.iloc[0] / 1.76,
-        'kW_installed': (pv_area.iloc[0] / 1.76)*0.3257,  # potenza installata [kWp]
-        'PV_gen_annual_kWh': pv_gen.sum(),                # produzione PV annua [kWh]
+        'Rad_total_annual_kWh': round(df['roofs_top_kW'].sum(), 2), # radiazione totale annua [kWh]
+        'PV_area_m2': round(pv_area.iloc[0], 2),                    # area PV installata [m2]
+        'n_panels': round(pv_area.iloc[0] / 1.76, 2),
+        'kW_installed': round((pv_area.iloc[0] / 1.76)*0.3257, 2),  # potenza installata [kWp]
+        'PV_gen_annual_kWh': round(pv_gen.sum(), 2),                # produzione PV annua [kWh]
     })
 
 pv_recap_df = pd.DataFrame(pv_recap_rows).set_index('Building')
@@ -122,6 +122,11 @@ print("File recap PV generato:", pv_recap_output)
 final_df_radiation = pd.concat(dfs_radiation, axis=1)
 radiation_final_df = final_df_radiation.loc[:, ~final_df_radiation.columns.duplicated()]
 radiation_final_df['Date'] = pd.to_datetime(radiation_final_df['Date']).dt.tz_localize(None)
+radiation_final_df['Date'] = radiation_final_df['Date'].apply(lambda x: x.replace(year=2016))
+
+print("Radiation min/max date:", radiation_final_df['Date'].min(), radiation_final_df['Date'].max())
+print(radiation_final_df['Date'].head())
+print(radiation_final_df['Date'].tail())
 
 ### Ordiniamo le Colonne ###
 ordered_columns = ['Date'] + building_ids

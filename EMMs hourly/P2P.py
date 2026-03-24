@@ -2,14 +2,15 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
-"""script to calculate the energy and financial trend of the P2P with IDP scheme for the Bari district. 
+"""script to calculate the energy and financial trend of P2P with IDP scheme for Bari district. 
 The script is based on the elaborations from CEA, stored in an excel file, which includes:
 - main energy variables at hourly resolution for each building;
 - "valutazione_CER" sheet for community-level evaluation of CSC
 - CSC-related energy and financial evaluation at hourly resolution for each building"""
 
 # input file
-community_file = Path(r"C:\Users\franc\Desktop\ABM Bari\Elaboration_REC\community_bybuilding_BAU_scenario_prova3_stochastic.xlsx")
+#community_file = Path(r"C:\Users\franc\Desktop\ABM Bari\Elaboration_REC\community_bybuilding_BAU_scenario_prova3_stochastic.xlsx")
+community_file = Path(r"C:\Users\franc\PythonProject\Bari_dataset\Elaboration REC\BAU_40%roof\VES\community_bybuilding_BAU_40%roof.xlsx")
 
 # Save to Excel
 output_IDP_file = Path(r"C:\Users\franc\Desktop\ABM Bari\Elaboration_REC\P2P_with_IDP.xlsx")

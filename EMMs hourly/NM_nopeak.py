@@ -6,7 +6,7 @@ from pathlib import Path
 import json
 
 # Upload the excel file which has the hourly values divided by building
-file_path = Path(r"C:\Users\franc\Desktop\ABM Bari\Elaboration_REC\community_bybuilding_BAU_scenario_prova3_stochastic.xlsx")
+file_path = Path(r"C:\Users\franc\PythonProject\Bari_dataset\Elaboration REC\BAU_40%roof\VES\community_bybuilding_BAU_40%roof.xlsx")
 output_file_NM_nopeak = Path(r"C:\Users\franc\Desktop\ABM Bari\Elaboration_REC\NM_nopeak.xlsx")
 
 # === PATH ===
@@ -66,7 +66,7 @@ df_export = pd.read_excel(file_path, sheet_name="Export_kWh")
 df_consumption = pd.read_excel(file_path, sheet_name="Demand_kWh")
 df_production = pd.read_excel(file_path, sheet_name="PV_kWh")
 df_selfconsumption = pd.read_excel(file_path, sheet_name="Self_consumption_kWh")
-df_initial_costs = pd.read_excel(file_path, sheet_name="Initial_costs")
+df_initial_costs = pd.read_excel(file_path, sheet_name="Import_costs")
 df_syst_charges = pd.read_excel(output_file_costs, sheet_name="System Access Charges")
 df_prices = pd.read_excel(output_file_costs, sheet_name="Prices")
 

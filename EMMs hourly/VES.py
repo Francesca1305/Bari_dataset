@@ -4,13 +4,23 @@ from pathlib import Path
 
 #name_scenario = "Retrofit_II_0.20PV"
 
+"""script to calculate the energy and financial results of VES scheme for Bari district. 
+The script is based on the elaborations from CEA, stored in an excel file, which includes:
+- main energy variables at hourly resolution for each building;
+- "valutazione_CER" sheet for community-level evaluation of CSC
+- CSC-related energy and financial evaluation at hourly resolution for each building.
+
+The script does not produce a new excel file but adds sheets to the community_by_building_{scenario}.xlsx from the 
+"Elaboration{something}.py"""
+
 # Percorso file Excel
 # community_file = Path(
 #     f"C:/CityEnergyAnalyst/Paper_prova/{name_scenario}/outputs/"
 #     f"Elaboration_REC/PV5_20%_efficiency/community_bybuilding_{name_scenario}.xlsx"
 # )
 
-community_file=Path(r"C:\Users\franc\Desktop\ABM Bari\Elaboration_REC\community_bybuilding_BAU_scenario_prova3_stochastic.xlsx")
+#community_file=Path(r"C:\Users\franc\Desktop\ABM Bari\Elaboration_REC\community_bybuilding_BAU_scenario_prova3_stochastic.xlsx")
+community_file = Path(r"C:\Users\franc\PythonProject\Bari_dataset\Elaboration REC\BAU_40%roof\VES\community_bybuilding_BAU_40%roof.xlsx")
 costs_file = Path(r"C:\Users\franc\PythonProject\Bari_dataset\Elaboration REC\Building_costs.xlsx")
 
 # =========================
@@ -41,7 +51,7 @@ tariff_df['Date'] = pd.to_datetime(tariff_df['Date'])
 # =========================
 CSC = valutazione_CER_df['CSC'].values.reshape(-1, 1)   # (8760, 1)
 incentive = valutazione_CER_df['Incentive'].values.reshape(-1, 1)
-price_purchase = valutazione_CER_df['Price purchase'].values.reshape(-1, 1)
+#price_purchase = valutazione_CER_df['Price purchase'].values.reshape(-1, 1)
 RiD = valutazione_CER_df['Price surplus'].values.reshape(-1, 1)
 Revenues_surplus_after_REC = valutazione_CER_df['Energy revenues REC_surplus'].values.reshape(-1, 1)
 import_values = import_df[building_ids].values      # (8760, n_buildings)
@@ -59,6 +69,7 @@ if missing:
 tariff_values = tariff_df[building_ids].values  # ← ora l'ordine è garantito
 
 initial_BAU_energy_costs = demand_values * tariff_values
+PSC_energy_costs = import_values * tariff_values
 
 # =========================
 # Calcolo quote di export
@@ -85,7 +96,7 @@ np.divide(
 # =========================
 # Distribuzione CSC
 # =========================
-Energy_costs_import = import_values*price_purchase
+#Energy_costs_import = import_values*price_purchase
 CSC_distributed_import = CSC * import_shares
 CSC_distributed_export = CSC * export_shares
 CSC_distributed_revenues = CSC * export_shares * incentive
@@ -103,7 +114,7 @@ distribution_CSC_revenues_df = pd.DataFrame(CSC_distributed_revenues, columns=bu
 distribution_CSC_revenues_df.insert(0, 'Date', valutazione_CER_df['Date'])
 distribution_CSC_revenues_withRiD_df = pd.DataFrame(CSC_distributed_revenues_withRid, columns=building_ids)
 distribution_CSC_revenues_withRiD_df.insert(0, 'Date', valutazione_CER_df['Date'])
-energy_costs_import_df = pd.DataFrame(Energy_costs_import, columns=building_ids)
+energy_costs_import_df = pd.DataFrame(PSC_energy_costs, columns=building_ids)
 energy_costs_import_df.insert(0, 'Date', valutazione_CER_df['Date'])
 distribution_revenues_after_REC_df = pd.DataFrame(revenues_after_REC_distributed, columns=building_ids)
 distribution_revenues_after_REC_df.insert(0, 'Date', valutazione_CER_df['Date'])
