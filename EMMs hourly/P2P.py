@@ -13,6 +13,7 @@ community_file = Path(r"C:\Users\franc\Desktop\ABM Bari\Elaboration_REC\communit
 
 # Save to Excel
 output_IDP_file = Path(r"C:\Users\franc\Desktop\ABM Bari\Elaboration_REC\P2P_with_IDP.xlsx")
+costs_file = Path(r"C:\Users\franc\PythonProject\Bari_dataset\Elaboration REC\Building_costs.xlsx")
 
 def calculate_dynamic_price(demand, generation, import_grid,
                             export_generation, base_price, alpha, k, wholesale_price, access_charges):
@@ -56,12 +57,15 @@ physical_selfcons_df = pd.read_excel(community_file, sheet_name="Self_consumptio
 import_df = pd.read_excel(community_file, sheet_name="Import_kWh")
 export_df = pd.read_excel(community_file, sheet_name="Export_kWh")
 import_costs_df = pd.read_excel(community_file, sheet_name="Import_costs")
+tariff_purchase_price_df = pd.read_excel(costs_file, sheet_name="Prices")
 
-initial_demand_df['Date'] = pd.to_datetime(initial_demand_df['Date'])
 initial_demand_df['Date'] = pd.to_datetime(initial_demand_df['Date'])
 physical_selfcons_df['Date'] = pd.to_datetime(physical_selfcons_df['Date'])
 import_df['Date'] = pd.to_datetime(import_df['Date'])
 export_df['Date'] = pd.to_datetime(export_df['Date'])
+tariff_purchase_price_df['Date'] = pd.to_datetime(tariff_purchase_price_df['Date'])
+# Trova l'intersezione ordinata (edifici presenti in entrambi)
+
 
 valutazione_CER_df = pd.read_excel(community_file, sheet_name="valutazione CER")
 valutazione_CER_df['Date'] = pd.to_datetime(valutazione_CER_df['Date'])
@@ -73,6 +77,19 @@ initial_PV_prod_values = initial_PV_production_df[building_ids].values
 physical_selfcons_values = physical_selfcons_df[building_ids].values
 import_values = import_df[building_ids].values
 export_values = export_df[building_ids].values
+# Trova l'intersezione ordinata (edifici presenti in entrambi)
+# ✅ DOPO — allinea le colonne di Prices a building_ids
+
+# Colonne disponibili nel foglio Prices
+price_cols = [c for c in tariff_purchase_price_df.columns if c != "Date"]
+
+# Verifica che tutti i building_ids siano presenti in Prices
+missing = [b for b in building_ids if b not in price_cols]
+if missing:
+    raise ValueError(f"Edifici mancanti nel foglio Prices: {missing}")
+
+# Riordina le colonne di Prices nell'ordine di building_ids
+tariff_purchase_price = tariff_purchase_price_df[building_ids].values
 
 # =========================
 # Calcolo quote di export
@@ -161,6 +178,7 @@ revenues_after_REC_distributed = surplus_REC_revenues * export_shares
 Energy_costs_IDP_import = (CSC_distributed_import*IDP +
                            (import_values-CSC_distributed_import)*base_price)
 IDP_distributed_revenues = (collective_SC * export_shares) * IDP
+initial_BAU_energy_costs = initial_demand_values*tariff_purchase_price
 
 # =========================
 # Creazione DataFrame finale
@@ -175,6 +193,8 @@ energy_costs_IDP_import_df = pd.DataFrame(Energy_costs_IDP_import, columns=build
 energy_costs_IDP_import_df.insert(0, 'Date', valutazione_CER_df['Date'])
 distribution_revenues_after_REC_df = pd.DataFrame(revenues_after_REC_distributed, columns=building_ids)
 distribution_revenues_after_REC_df.insert(0, 'Date', valutazione_CER_df['Date'])
+initial_BAU_energy_costs_df = pd.DataFrame(initial_BAU_energy_costs, columns=building_ids)
+initial_BAU_energy_costs_df.insert(0, 'Date', valutazione_CER_df['Date'])
 
 # =========================
 # Scrittura nuovo sheet
@@ -192,6 +212,7 @@ with pd.ExcelWriter(output_IDP_file, engine="openpyxl", mode="w") as writer:
     distribution_IDP_revenues_df.to_excel(writer, sheet_name="CSC_rev_IDP", index=False)
     energy_costs_IDP_import_df.to_excel(writer, sheet_name="Import_costs_IDP", index=False)
     distribution_revenues_after_REC_df.to_excel(writer, sheet_name="REC_surplus_rev", index=False)
+    initial_BAU_energy_costs_df.to_excel(writer, sheet_name="Initial_BAU_energy_costs", index=False)
 
 # IDP = "P2P_with_IDP.xlsx"
 # with pd.ExcelWriter(IDP, engine="openpyxl", mode="a", if_sheet_exists="replace") as writer:
