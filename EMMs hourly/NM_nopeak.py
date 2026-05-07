@@ -217,7 +217,8 @@ def calculate_credit_distribution_nopeak(import_monthly, export_monthly,
  monthly_average_prices, self_consumed_energy,
  energy_shared, self_consumed_onlyNM, self_consumed_total, pv_prod,
  PSC_kWh, monthly_access_charges) = \
-    calculate_credit_distribution_nopeak(import_monthly, export_monthly, monthly_prices, system_access_monthly,
+    calculate_credit_distribution_nopeak(import_monthly, export_monthly, monthly_prices,
+                                         system_access_monthly,
                                          production_monthly, PSC_monthly_kWh)
 
 # Create DataFrame for the final result of NM

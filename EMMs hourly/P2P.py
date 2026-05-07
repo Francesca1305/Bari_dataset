@@ -17,7 +17,8 @@ output_IDP_file = Path(r"C:\Users\franc\Desktop\ABM Bari\Elaboration_REC\P2P_wit
 costs_file = Path(r"C:\Users\franc\PythonProject\Bari_dataset\Elaboration REC\Building_costs.xlsx")
 
 def calculate_dynamic_price(demand, generation, import_grid,
-                            export_generation, base_price, alpha, k, wholesale_price, access_charges):
+                            export_generation, base_price, alpha, k, wholesale_price,
+                            access_charges):
     # Substitute values = 0 in the generation
     #generation = np.where(generation == 0, np.nan, generation)
     # Calculate the hourly Supply Demand Ratio

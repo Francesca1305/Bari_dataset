@@ -295,27 +295,6 @@ def assign_households_to_residential_buildings(census_sections, building_data):
                         rem_level = random.choice(candidates)
                         income_count[rem_level] -= 1
 
-            # # garantisci tutte le chiavi
-            # for level in income_levels:
-            #     income_count.setdefault(level, 0)
-            #
-            # # --- LOCAL REBALANCING income ---
-            # sum_inc = sum(income_count.values())
-            #
-            # if sum_inc < building["estimated_residents"]:
-            #     diff = building["estimated_residents"] - sum_inc
-            #     for _ in range(diff):
-            #         add_level = random.choice(income_levels)
-            #         income_count[add_level] += 1
-            #
-            # elif sum_inc > building["estimated_residents"]:
-            #     diff = sum_inc - building["estimated_residents"]
-            #     for _ in range(diff):
-            #         candidates = [lvl for lvl, val in income_count.items() if val > 0]
-            #         if candidates:
-            #             rem_level = random.choice(candidates)
-            #             income_count[rem_level] -= 1
-
 
             # --- Estimate households and residents per type ---
             hh_types_residents = {
@@ -380,69 +359,6 @@ def assign_households_to_residential_buildings(census_sections, building_data):
                     "count": dict(inc_counter)
                 }
 
-            # --- SAVE EACH HOUSEHOLD DISTINCTLY ---
-
-            # for hh_type in household_education_detail.keys():
-            #
-            #     edu_list = household_education_detail[hh_type]["list"]
-            #     inc_list = household_income_detail[hh_type]["list"]
-            #
-            #     for i in range(len(edu_list)):
-            #         hh_id = f"{building_id}_{random.randint(1, 200)}"
-            #
-            #         all_households_detailed.append({
-            #             "Household_ID": hh_id,
-            #             "Building_ID": building_id,
-            #             "Household_type": hh_type,
-            #             "education": edu_list[i],
-            #             "income": inc_list[i]
-            #         })
-            # # --- SAVE EACH HOUSEHOLD WITH ITS RESIDENTS ---
-            # hh_resident_counts = {
-            #     "single_worker": 1,
-            #     "single_retired": 1,
-            #     "couple_workers": 2,
-            #     "couple_retired": 2,
-            #     "families": 3  # puoi regolare in base alla dimensione media desiderata
-            # }
-            #
-            # for hh_type, nres in hh_types_residents.items():
-            #     num_households = building_hh_count.get(hh_type, 0)
-            #     if num_households == 0:
-            #         continue
-            #
-            #     # Prendi le liste dei residenti disponibili
-            #     edu_list = household_education_detail[hh_type]["list"].copy()
-            #     inc_list = household_income_detail[hh_type]["list"].copy()
-            #
-            #     start_idx = 0
-            #     for _ in range(num_households):
-            #         hh_id = f"{building_id}_{random.randint(100000, 999999)}"
-            #         members_count = hh_resident_counts.get(hh_type, 1)
-            #
-            #         # Estrai i residenti per questo household
-            #         hh_edu = edu_list[start_idx:start_idx + members_count]
-            #         hh_inc = inc_list[start_idx:start_idx + members_count]
-            #         start_idx += members_count
-            #
-            #         # In caso di eccedenza o lista più corta, riempi con "unknown"/"below0_income"
-            #         while len(hh_edu) < members_count:
-            #             hh_edu.append("unknown_edu")
-            #         while len(hh_inc) < members_count:
-            #             hh_inc.append("below0_income")
-            #
-            #         # Conta i residenti per ciascun livello
-            #         edu_count = dict(Counter(hh_edu))
-            #         inc_count = dict(Counter(hh_inc))
-            #
-            #         all_households_detailed.append({
-            #             "Household_ID": hh_id,
-            #             "Building_ID": building_id,
-            #             "Household_type": hh_type,
-            #             "education": edu_count,
-            #             "income": inc_count
-            #         })
-
             # --- Aggregate education counts per building ---
             aggregated_education = {}
             for level in section_education.keys():
@@ -460,28 +376,6 @@ def assign_households_to_residential_buildings(census_sections, building_data):
                     if isinstance(hh, dict) and "count" in hh:
                         total += hh["count"].get(level, 0)
                 aggregated_income[level] = total
-
-            # --- Assign income levels to households randomly ---
-            # start_idx = 0
-            # household_income_detail = {}
-            #
-            # for hh_type, nres in hh_types_residents.items():
-            #     assigned_inc = income_levels_list[start_idx:start_idx + nres] if nres > 0 else []
-            #     start_idx += nres
-            #     inc_counter = Counter(assigned_inc)
-            #     household_income_detail[hh_type] = {
-            #         "list": assigned_inc,
-            #         "count": dict(inc_counter)
-            #     }
-            # # --- Aggregate income counts per building ---
-            # aggregated_income = {}
-            #
-            # for level in section_income.keys():
-            #     total = 0
-            #     for hh in household_income_detail.values():
-            #         if isinstance(hh, dict) and "count" in hh:
-            #             total += hh["count"].get(level, 0)
-            #     aggregated_income[level] = total
 
 
             # --- FINAL LOCAL REBALANCING ---
@@ -575,40 +469,6 @@ def assign_households_to_residential_buildings(census_sections, building_data):
                         df.loc[len(df)] = avg_row
                         df.to_excel(writer, sheet_name=cat, index=False)
                 print(f"File creato: {file_path}")
-
-            # --- GLOBAL REBALANCING per la SEZIONE CENSUARIA ---
-
-            # # Calcola la somma di education per tutti gli edifici di questa sezione
-            # section_buildings = [bid for bid in building_estimated_residents if
-            #                      building_estimated_residents[bid].get("Census_Section", census_id) == census_id]
-            # section_sum = {lvl: 0 for lvl in section_education.keys()}
-            # for bid in section_buildings:
-            #     edu_dict = building_estimated_residents[bid]["education"]
-            #     for lvl, val in edu_dict.items():
-            #         section_sum[lvl] += val
-            #
-            # # Differenze con i valori censuari
-            # edu_levels = list(section_education.keys())
-            # for lvl in edu_levels:
-            #     diff = section_education[lvl] - section_sum[lvl]
-            #     if diff == 0:
-            #         continue
-            #
-            #     # Se mancano residenti per un livello → aggiungili randomicamente
-            #     if diff > 0:
-            #         for _ in range(diff):
-            #             target_building = random.choice(section_buildings)
-            #             building_estimated_residents[target_building]["education"][lvl] += 1
-            #     # Se sono in eccesso → rimuovili dove presenti
-            #     else:
-            #         for _ in range(abs(diff)):
-            #             candidates = [
-            #                 bid for bid in section_buildings
-            #                 if building_estimated_residents[bid]["education"].get(lvl, 0) > 0
-            #             ]
-            #             if candidates:
-            #                 target_building = random.choice(candidates)
-            #                 building_estimated_residents[target_building]["education"][lvl] -= 1
 
             # Save summary for later aggregation
             for hh_type, count in building_hh_count.items():
