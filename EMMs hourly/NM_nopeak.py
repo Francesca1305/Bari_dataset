@@ -5,9 +5,10 @@ from datetime import datetime, timedelta
 from pathlib import Path
 import json
 
+scenario = "deterministic"
 # Upload the excel file which has the hourly values divided by building
-file_path = Path(r"C:\Users\franc\PythonProject\Bari_dataset\Elaboration REC\BAU_40%roof\VES\community_bybuilding_BAU_40%roof.xlsx")
-output_file_NM_nopeak = Path(r"C:\Users\franc\Desktop\ABM Bari\Elaboration_REC\NM_nopeak.xlsx")
+file_path = Path(rf"C:\Users\franc\PythonProject\Bari_dataset\Elaboration REC\{scenario}_40%roof\VES\community_bybuilding_{scenario}_40%roof.xlsx")
+output_file_NM_nopeak = Path(rf"C:\Users\franc\PythonProject\Bari_dataset\Elaboration REC\{scenario}_40%roof\NM_nopeak.xlsx")
 
 # === PATH ===
 file_json = Path(r"C:\Users\franc\PythonProject\Agent-Based-Model\Bari_elaboration\Buildings_Bari\Buildings_data_Bari.json")

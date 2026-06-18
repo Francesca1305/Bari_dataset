@@ -6,11 +6,11 @@ from datetime import datetime, timedelta
 import numpy as np
 import json
 
-name_scenario = "BAU_40%roof"
+name_scenario = "deterministic_40%roof"
 
 # Base project path
 #base_path = Path(f"C:/CityEnergyAnalyst/Paper_prova/{name_scenario}/outputs/data")
-demand_folder = r"D:\PhD\Simulazioni CEA Articolo CEES\stochastic BAU\demand_stochastic"
+demand_folder = r"D:\PhD\Simulazioni CEA Articolo CEES\demand_semi deterministic"
 radiation_folder = r"D:\PhD\Simulazioni CEA Articolo CEES\Retrofit_sensitivity\outputs\data\solar-radiation"
 
 # Define specific folders and files for community aggregated files

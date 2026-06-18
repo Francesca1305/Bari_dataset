@@ -10,10 +10,10 @@ The script is based on the elaborations from CEA, stored in an excel file, which
 
 # input file
 #community_file = Path(r"C:\Users\franc\Desktop\ABM Bari\Elaboration_REC\community_bybuilding_BAU_scenario_prova3_stochastic.xlsx")
-community_file = Path(r"C:\Users\franc\PythonProject\Bari_dataset\Elaboration REC\BAU_40%roof\VES\community_bybuilding_BAU_40%roof.xlsx")
+community_file = Path(r"C:\Users\franc\PythonProject\Bari_dataset\Elaboration REC\deterministic_40%roof\VES\community_bybuilding_deterministic_40%roof.xlsx")
 
 # Save to Excel
-output_IDP_file = Path(r"C:\Users\franc\Desktop\ABM Bari\Elaboration_REC\P2P_with_IDP.xlsx")
+output_IDP_file = Path(r"C:\Users\franc\PythonProject\Bari_dataset\Elaboration REC\deterministic_40%roof\P2P_with_IDP.xlsx")
 costs_file = Path(r"C:\Users\franc\PythonProject\Bari_dataset\Elaboration REC\Building_costs.xlsx")
 
 def calculate_dynamic_price(demand, generation, import_grid,

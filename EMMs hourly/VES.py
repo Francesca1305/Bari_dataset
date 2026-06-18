@@ -13,14 +13,11 @@ The script is based on the elaborations from CEA, stored in an excel file, which
 The script does not produce a new excel file but adds sheets to the community_by_building_{scenario}.xlsx from the 
 "Elaboration{something}.py"""
 
-# Percorso file Excel
-# community_file = Path(
-#     f"C:/CityEnergyAnalyst/Paper_prova/{name_scenario}/outputs/"
-#     f"Elaboration_REC/PV5_20%_efficiency/community_bybuilding_{name_scenario}.xlsx"
-# )
 
 #community_file=Path(r"C:\Users\franc\Desktop\ABM Bari\Elaboration_REC\community_bybuilding_BAU_scenario_prova3_stochastic.xlsx")
-community_file = Path(r"C:\Users\franc\PythonProject\Bari_dataset\Elaboration REC\BAU_40%roof\VES\community_bybuilding_BAU_40%roof.xlsx")
+scenario = "deterministic"
+# Upload the excel file which has the hourly values divided by building
+community_file = Path(rf"C:\Users\franc\PythonProject\Bari_dataset\Elaboration REC\{scenario}_40%roof\VES\community_bybuilding_{scenario}_40%roof.xlsx")
 costs_file = Path(r"C:\Users\franc\PythonProject\Bari_dataset\Elaboration REC\Building_costs.xlsx")
 
 # =========================
